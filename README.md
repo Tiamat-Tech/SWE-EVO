@@ -10,13 +10,6 @@
 Evaluate AI agents on realistic software evolution • Multi-step planning and adaptation • Long-horizon reasoning challenges
 </p>
 
-<p align="center">
-  <a href="https://arxiv.org/abs/2512.18470"><img alt="Paper" src="https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg?style=flat-square" /></a>
-  <a href="./LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" /></a>
-  <a href="https://www.python.org/downloads/"><img alt="Python" src="https://img.shields.io/badge/python-%3E%3D3.10-blue.svg?style=flat-square" /></a>
-  <a href="https://github.com/FSoft-AI4Code/SWE-EVO/issues"><img alt="Issues" src="https://img.shields.io/github/issues/FSoft-AI4Code/SWE-EVO?style=flat-square" /></a>
-  <a href="https://github.com/FSoft-AI4Code/SWE-EVO/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/FSoft-AI4Code/SWE-EVO?style=flat-square" /></a>
-</p>
 
 <p align="center">
   <a href="#introduction"><strong>Introduction</strong></a> •
@@ -59,20 +52,13 @@ Using versioned histories from real Python open-source projects (such as **Djang
 
 ## Quick Start
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/FSoft-AI4Code/SWE-EVO.git
-cd SWE-EVO
-```
-
-### 2. Install Dependencies
+### 1. Install Dependencies
 
 ```bash
 pip install -e .
 ```
 
-### 3. Run Evaluation
+### 2. Run Evaluation
 
 ```bash
 python SWE-bench/evaluate_instance.py \
@@ -280,28 +266,3 @@ Special thanks to:
 - The open-source community behind **Django**, **NumPy**, and other projects used in this benchmark
 
 ---
-
-## License
-
-MIT License - See [LICENSE](./LICENSE) for details.
-
----
-
-## Citation
-
-```bibtex
-@article{thai2025swe,
-  title={SWE-EVO: Benchmarking Coding Agents in Long-Horizon Software Evolution Scenarios},
-  author={Thai, Minh VT and Le, Tue and Manh, Dung Nguyen and Nhat, Huy Phan and Bui, Nghi DQ},
-  journal={arXiv preprint arXiv:2512.18470},
-  year={2025}
-}
-```
-
----
-
-<p align="center">
-  <a href="https://github.com/FSoft-AI4Code/SWE-EVO">GitHub</a> •
-  <a href="https://arxiv.org/abs/XXXX.XXXXX">Paper</a> •
-  <a href="https://github.com/FSoft-AI4Code/SWE-EVO/issues">Issues</a>
-</p>
